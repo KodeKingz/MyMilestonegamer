@@ -1,0 +1,621 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
+
+body {
+  background-color: black;
+}
+
+.bg-color-name-title {
+    background-color: #000000;
+    background: url("https://media.playstation.com/is/image/SCEA/playstation-experience-2017-page-section-background-01-us-10aug17?$native_nt$");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 410px;
+    transition: all 4s ease-in-out;
+    -moz-transition: all 4s ease-in-out;
+    -webkit-transition: all 4s ease-in-out;
+    border-style: solid;
+    border-width: .5px;
+    border-color: black;
+    
+}
+
+
+
+
+.ui-menu-color-console {
+    background-color: #090a0e;
+    border-style: solid;
+    border-width: .5px;
+    border-color: black;
+    
+    
+  }
+
+
+.ui-menu-color-games {
+    background-color: #090a0e;
+    border-style: solid;
+    border-width: .5px;
+    border-color: black;
+}
+
+.ui-menu-color-accessories {
+    background-color: #090a0e;
+    border-style: solid;
+    border-width: .5px;
+    border-color: black;
+}
+
+.ui-menu-color-sign {
+    background-color: #090a0e;
+    border-style: solid;
+    border-width: .5px;
+    border-color: black;
+}
+
+.row-table {
+    display: table;
+    
+}
+
+.section-column {
+    display: table-cell;
+    padding: 0 30px 30px;
+    float: none;
+}
+
+.section-heading {
+    font-family: "Exo", sans-serif;
+    font-weight: 300;
+    margin-top: 25px;
+    margin-bottom: 40px;
+    
+   
+}
+
+h1,h2,h3,h4 {
+    margin: 0;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.general-sub {
+    font-family: "Exo", sans-serif;
+    font-weight: 300;
+    color: #fafafa;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+.row-table {
+    display: table;
+}
+
+.section-column {
+    display: table-cell;
+    padding: 0 30px 30px;
+    float: none;
+}
+
+.history-heading,
+.section-heading {
+    font-family: "Exo", sans-serif;
+    font-weight: 300;
+    margin-top: 25px;
+    margin-bottom: 40px;
+    
+}
+
+/*--------Heading-------------*/
+
+header {
+    margin: 0;
+}
+
+.heading {
+    margin-left: 50px;
+}
+
+.logo {
+    background: url("https://i.imgur.com/8Phr5vL.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 410px;
+    transition: all 4s ease-in-out;
+    -moz-transition: all 4s ease-in-out;
+    -webkit-transition: all 4s ease-in-out;
+    color: purple;
+    border-style: solid;
+    border-width: .5px;
+    border-color: black;
+    
+    }
+
+
+
+
+.name {
+    font-family: "Exo", sans-serif;
+    font-weight: 400;
+    font-size: 46px;
+    margin-top: 50px;
+    color: rgb(255, 255, 255);
+    
+}
+
+.title {
+    font-family: "Roboto", sans-serif;
+    font-weight: 200;
+    font-size: 28px;
+    margin-top: 20px;
+    margin-bottom: 90px;
+    color: rgb(255, 255, 255);
+}
+
+.list-inline-item:not(:last-child) {
+    margin: 0;
+}
+
+.menucontainer {
+    font-size: 0;
+}
+
+#nav li {
+    font-size: 14px;
+    padding: 0;
+}
+
+#nav {
+    margin: 0;
+}
+
+.menuitem {
+    height: 120px;
+    text-align: center;
+    padding: 0;
+}
+
+.menuitem a {
+    width: 100%;
+    text-decoration: none;
+    color: #fff;
+    height: 120px;
+}
+
+.menuitem a i {
+    padding-top: 22px;
+    display: block;
+    color: #fafafa;
+    font-size: 26px;
+}
+
+.menuitem span {
+    display: block;
+    width: 100%;
+    padding-top: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 2px;
+}
+
+/*-----------Hover|||css-------------*/
+
+.hvr-sweep-to-bottom:before {
+    background: rgba(224, 3, 188, 0.2);
+    height: 120px;
+}
+
+/* -----------Footer------------- */
+
+footer a:link {
+    background-color: #00000000;
+    color: #fafafa;
+    min-height: 120px;
+    margin: 0;
+}
+
+.social-links {
+    padding-bottom: 15px;
+}
+
+.social-links li a i {
+    width: 32px;
+    height: 32px;
+    padding: 12px 0;
+    border-radius: 50%;
+    font-size: 13px;
+    line-height: 7px;
+    text-align: center;
+    color: #fafafa;
+    background: purple;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.social-links li a i:hover {
+    background: #4CAF50;;
+}
+
+#footer-details {
+    padding: 20px;
+    margin-bottom: 10px;
+}
+
+
+
+.personal-info-item {
+    margin-bottom: 20px;
+    display: block;
+    clear: both;
+    
+    border-style: solid;
+    border-width: 5px;
+    border-color: white;
+    
+}
+
+.personal-info-item .key,
+.personal-info-item .value {
+    padding-right: 8px;
+    display: inline-block;
+    
+    
+}
+
+.personal-info-item .key p,
+.personal-info-item .value p {
+    margin: 0;
+}
+
+.personal-info-item .key {
+    width: 30%;
+    margin-right: 21px;
+    padding-top: 2px;
+    vertical-align: top;
+}
+
+.personal-info-item .key p {
+    font-weight: 700;
+}
+
+.personal-info-item .value {
+    position: relative;
+    width: 60%;
+}
+
+/* -------------Frames-------------- */
+
+.progress {
+    position: relative;
+    height: 25px;
+    margin-bottom: 4px;
+}
+
+.progress-type {
+    position: absolute;
+    left: 0px;
+    font-weight: 400;
+    padding: 3px 30px 2px 10px;
+    color: #fafafa;
+    background-color: rgba(224, 3, 188, 0.2);
+}
+
+.progress-section {
+    margin: 40px 20px;
+}
+
+/* ------------------------Media Queries ----------------------*/
+
+@media(min-width: 992px) {
+    .center-form {
+        padding-top: 30px;
+        min-height: 240px;
+        margin: 0 auto;
+        max-width: 50%;
+    }
+}
+
+
+.active-border{
+    position: relative;
+    text-align: center;
+    width: 110px;
+    height: 110px;
+    border-radius: 100%;
+    background-color:rgb(87, 0, 48);
+    /*background-image:
+        linear-gradient(40deg, transparent 50%, rgb(51, 151, 173) 50%),
+        linear-gradient(90deg, rgb(75, 192, 75) 50%, transparent 50%);*/
+}
+
+
+.navbar-custom, {
+    background-color: rgb(21, 25, 29);
+    color: #ffffff
+
+    
+}
+
+/* change the brand and text color */
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text {
+    color: rgb(21, 25, 29);
+    
+}
+/* change the link color */
+.navbar-custom .navbar-nav .nav-link {
+    color: rgb(21, 25, 29);
+}
+/* change the color of active or hovered links */
+.navbar-custom .nav-item.active .nav-link,
+.navbar-custom .nav-item:hover .nav-link {
+    color: rgb(21, 25, 29);
+    
+}
+
+
+
+
+  .container-fluid {
+      background-color: rgb(21, 25, 29);
+      border-style: solid;
+    border-width: .5px;
+    border-color: rgb(78, 88, 90);
+     
+    }
+
+
+
+    /*--------------signup---------------*/
+    .form-section {
+  clear: left;
+  background: url("http://piracysim.com/wp-content/uploads/2016/11/roadhog-overwatch-game-art-5k-wallpaper-1024x576.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 900px;
+
+  
+}
+
+.signup-form {
+  margin-top: 150px;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.781);
+  max-width: 400px;
+  position: absolute;
+  padding: 30px;
+  left: 10%;
+
+}
+
+.signup-form h2 {
+  margin-bottom: 20px;
+  color: #fafafa;
+
+}
+.child-header{
+  color: #fafafa;
+  margin: 20px;
+  
+}
+
+
+.child-header{
+  color: #fafafa;
+  margin: 20px;
+  
+}
+
+.text-input {
+  background-color: transparent;
+  color: #fafafa;
+  width: 100%;
+  height: 25px;
+  margin: 5px 0px 20px 0px;
+  border: 1px solid #fafafa;
+  border-radius: 2px;
+}
+
+.text-input:hover {
+  border-color: #4CAF50;
+}
+
+.join-button {
+  margin-top: 20px;
+  border-radius: 2px;
+  padding: 15px 32px 15px 32px;
+  text-align: center;
+  font-size: 100%;
+  background-color: #4CAF50;
+  color: #fafafa;
+  display: block;
+}
+
+.join-button:hover {
+  background-color: #fafafa;
+  color: #4CAF50;
+}
+
+.form-section {
+  width: 100%;
+  height: 750px;
+  text-align: center;
+  overflow: hidden;
+  position: relative;
+  
+}
+
+/*-------------FOOTER------------*/
+
+#footer{
+  height: 150px;
+
+}
+
+.social-networks{
+  text-align: center;
+}
+
+.social-networks li {
+  display: inline;
+
+}
+
+.social-networks i {
+  font-size: 160%;
+  margin: 1%;
+  padding: 5%;
+  color: #4CAF50;
+  animation-name: hero-zoom;
+  animation-duration: 7s;
+  animation-fill-mode: forwards;
+}
+
+#logo{
+  float: left;
+  font-size: 280%;
+  margin-left: 30px;
+  color:#4CAF50;
+}
+
+#menu{
+  font-size: 110%;
+  list-style-type: none;
+  letter-spacing: 4px;
+}
+
+#logo, #menu{
+  line-height: 75px;
+}
+
+
+#menu li {
+  float: right;
+  margin-right: 30px;
+}
+
+#menu a{
+  text-decoration: none;
+  color: inherit;
+}
+
+#menu a:hover {
+  border-bottom: 1px solid white;
+}
+
+.active{
+  border-bottom: 1px solid white;
+}
+
+body {
+  color:#ffffff;
+}
+
+
+
+/*-----------Hover||||Links-------------*/
+a:link {
+  color: white;
+}
+
+a:link  {
+  
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  /*display: inline-block;*/
+}
+
+a:hover, a:active {
+  background-color: rgb(0, 0, 0);
+  
+}
+
+
+.navbar-nav a:hover{
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.button btn btn-outline-success{
+  background-color:#f16c6b;
+}
+
+
+/*------------Contact Us----------------*/
+
+* {
+  box-sizing: border-box;
+}
+
+/* Style inputs */
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Style the container/contact section */
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 10px;
+}
+
+/* Create two columns that float next to eachother */
+.column {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+
+div.container {
+  color:rgb(0, 0, 0);
+}
+
+nav, .menu a:hover{
+  color:#4CAF50;
+  background-color: black;
+  
+}
+
